@@ -9,7 +9,7 @@
 
 ## *About Me*
 
-A few months ago, I set myself the goal of changing my life and one of the stages of this process was the study of programming. After some deliberation, the Front-End direction was chosen. Plans for 2022 to become a Junior developer and raise your level. My strengths are excellent communication with people and well-coordinated teamwork experience.
+A few months ago, I set myself the goal of changing my life and one of the stages of this process was the study of programming. After some deliberation, the Front-End direction was chosen. Plans for 2022 to become a Junior developer and raise level. My strengths are excellent communication with people and well-coordinated teamwork experience.
 
 ## *Skills and Proficiency*
 

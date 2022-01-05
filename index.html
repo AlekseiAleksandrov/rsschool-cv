@@ -3,22 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
-    <h1>
-        <span class="info">Aleksandrov Aleksei</span>
-    </h1>
-    <h2>
-        Contact information
-    </h2>
-    <ul>
-        <li>Location: Grodno, Belarus</li>
-        <li>Phone: +375297826244</li>
-        <li>Email: ctrlexel@gmail.com</li>
-        <li>GitHub: [AlekseiAleksandrov](https://github.com/AlekseiAleksandrov)</li>
-    </ul>
-    
+    <header class ="header">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </div> 
+    </header>
+    <main class ="main">
+        <div class="left-side"><img src="assets\img\image2.jpg" alt="my photo"></div>
+        <div class="right-side">
+            <section class="section" id="profile">
+                <h1 class="name">Aleksandrov Aleksei</h1>
+               </section>
+               <section class="section" id="contacts">
+                <h2><ul>
+                    <li>Grodno, Belarus</li>
+                    <li>Phone: +375297826244</li>
+                    <li>Email: ctrlexel@gmail.com</li>
+                    
+                </ul></h2>
+               </section>
+               <section class="section" id="summary">
+                <h2><p>Summary</p>
+                    A few months ago, I set myself the goal of changing my life and one of 
+                    the stages of this process was the study of programming. 
+                    After some deliberation, the Front-End direction was chosen. 
+                    Plans for 2022 to become a Junior developer and raise level. 
+                    My strengths are excellent communication with people and well-coordinated teamwork experience.</h2>
+               </section>
+               <section class="section" id="skills">
+                <h2><span>Skills</span>
+                    <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>VS Code</li>
+                    <li>Git, GitHub</li>
+                    <li>AutoCad</li>
+                </ul></h2>
+               </section>
+               <section class="section" id="courses">
+                 
+                <h2><p>Courses</p>The Rolling Scopes School "JavaScript Front/End stage0" (in progress)</h2>
+               </section>
+               <section class="section" id="education">
+                <h2><p>Education</p>Yanka Kupala State University of Grodno (Civil Engineering Faculty)</h2>
+               </section>
+               <section class="section" id="english">
+                <h2>English: A1</h2>
+               </section>
+        </div>
+        
+    </main>
+    <footer class ="footer">
+         <a class="footer-github" href="https://github.com/AlekseiAleksandrov">My GitHub</a>
+         <div class="footer-year">2022</div>
+         <a class="footer-school" href="https://rs.school/js-stage0/">
+            <img src="assets\img\rs_school_js.svg" width="86" height="32" alt="RS School">
+        </a>
+    </footer>
 </body>
 </html>
